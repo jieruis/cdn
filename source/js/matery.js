@@ -104,6 +104,7 @@ $(function () {
             selector: '.img-item',
             // 启用字幕
             subHtmlSelectorRelative: true
+            showThumbByDefault: false  
         });
         
         $(document).find('img[data-original]').each(function(){
