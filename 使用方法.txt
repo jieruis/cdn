@@ -5,6 +5,14 @@ https://cdn.jsdelivr.net/gh/Yafine/cdn@3.1.1/source/css/gallery.css
 https://cdn.jsdelivr.net/gh/Yafine/cdn@3.1.1/source/loading4.gif
 注意：版本号不是必需的，是为了区分新旧资源，如果不使用版本号，将会直接引用最新资源
 
+(本地新建一个文件夹，文件夹名称自定义，然后进入文件夹，在文件夹内依次执行下面的命令
+git init
+git remote add origin 你新建仓库的HTTP或者SSH地址链接
+git pull origin master #将仓库拉取到本地文件夹
+）
+
+
+
 2.如果以后在向cdn库里添加或者修改文件，首先把文件添加到本地仓库，然后依次在本地cdn仓库文件位置执行以下命令：
 
 git pull origin master  #拉取远程仓库到本地
